@@ -4,10 +4,34 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<!-- Button trigger modal -->
+<button type="button" id="open-modal" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Open modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="accio-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="accio-modalLabel">New Modal</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aperiam natus doloribus fugiat adipisci quasi dolores unde soluta veritatis maxime sed ipsa nemo sunt, ducimus modi voluptatibus, ab saepe sint inventore ea tempora consequuntur quod exercitationem nulla? Dolor voluptates iusto molestias, libero sequi dolorem sunt hic autem consequatur, suscipit cumque.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
